@@ -1,6 +1,8 @@
 import Foundation
 import SpriteKit
 
+//Предполагает создание копий объектов и функционала к востановленийю из копий
+
 protocol Memento {
     var data: SKSpriteNode? { get }
 }

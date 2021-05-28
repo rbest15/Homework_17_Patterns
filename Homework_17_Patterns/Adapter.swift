@@ -1,5 +1,8 @@
 import Foundation
 
+//Предполагает создания класса-адаптера для представления какого-то класса к работе с третьим (с разными интерфейсами)
+
+
 class SberbankATM {
     func inkass(curr: Currency) -> Bool {
         return type(of: Currency.self) == RusRubles.self

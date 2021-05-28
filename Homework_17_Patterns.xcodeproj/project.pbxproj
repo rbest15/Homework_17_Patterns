@@ -22,6 +22,9 @@
 		6F45A178265FE21B009A7C9D /* RickAndMortyEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45A177265FE21B009A7C9D /* RickAndMortyEncoder.swift */; };
 		6F45A17A265FEB0B009A7C9D /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45A179265FEB0B009A7C9D /* Command.swift */; };
 		6F45A17C2660D0F1009A7C9D /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45A17B2660D0F1009A7C9D /* Memento.swift */; };
+		6F45A17E2660D677009A7C9D /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45A17D2660D677009A7C9D /* Strategy.swift */; };
+		6F45A1802660E5FA009A7C9D /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45A17F2660E5FA009A7C9D /* Proxy.swift */; };
+		6F45A1822660E977009A7C9D /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45A1812660E977009A7C9D /* Visitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		6F45A177265FE21B009A7C9D /* RickAndMortyEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyEncoder.swift; sourceTree = "<group>"; };
 		6F45A179265FEB0B009A7C9D /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		6F45A17B2660D0F1009A7C9D /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		6F45A17D2660D677009A7C9D /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		6F45A17F2660E5FA009A7C9D /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		6F45A1812660E977009A7C9D /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +93,12 @@
 				6F45A16D265FA2C9009A7C9D /* Singleton.swift */,
 				6F45A171265FB8EE009A7C9D /* Adapter.swift */,
 				6F45A173265FC173009A7C9D /* Composite.swift */,
+				6F45A1812660E977009A7C9D /* Visitor.swift */,
 				6F45A175265FD7B2009A7C9D /* Facade.swift */,
 				6F45A179265FEB0B009A7C9D /* Command.swift */,
 				6F45A17B2660D0F1009A7C9D /* Memento.swift */,
+				6F45A17D2660D677009A7C9D /* Strategy.swift */,
+				6F45A17F2660E5FA009A7C9D /* Proxy.swift */,
 			);
 			path = Homework_17_Patterns;
 			sourceTree = "<group>";
@@ -169,12 +178,15 @@
 				6F45A178265FE21B009A7C9D /* RickAndMortyEncoder.swift in Sources */,
 				6F45A170265FA2C9009A7C9D /* Singleton.swift in Sources */,
 				6F45A158265FA2B8009A7C9D /* AppDelegate.swift in Sources */,
+				6F45A17E2660D677009A7C9D /* Strategy.swift in Sources */,
 				6F45A15A265FA2B8009A7C9D /* SceneDelegate.swift in Sources */,
 				6F45A16E265FA2C9009A7C9D /* Builder.swift in Sources */,
 				6F45A174265FC173009A7C9D /* Composite.swift in Sources */,
 				6F45A16F265FA2C9009A7C9D /* Factory.swift in Sources */,
+				6F45A1802660E5FA009A7C9D /* Proxy.swift in Sources */,
 				6F45A17C2660D0F1009A7C9D /* Memento.swift in Sources */,
 				6F45A17A265FEB0B009A7C9D /* Command.swift in Sources */,
+				6F45A1822660E977009A7C9D /* Visitor.swift in Sources */,
 				6F45A172265FB8EE009A7C9D /* Adapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

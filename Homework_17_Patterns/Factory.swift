@@ -1,6 +1,8 @@
 import Foundation
 import SpriteKit
 
+//Предполагает наличие класса для создания множественных объектов какого то класса разных конфигураций
+
 
 protocol NodeFabric {
     func newOfSize(_ size: CGFloat) -> SKShapeNode

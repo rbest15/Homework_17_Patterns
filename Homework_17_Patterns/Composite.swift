@@ -1,6 +1,7 @@
 import Foundation
 import UIKit
 
+//Позволяет работать с объектом и одновременно со всеми его подобъектами
 
 class CustomView {
     private var childs : [CustomLabel] = []

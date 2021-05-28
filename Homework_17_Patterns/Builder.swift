@@ -1,6 +1,8 @@
 import Foundation
 import UIKit
 
+//Предполагает наличие класса для создания объектов какого то сложного объекта разных конфигураций
+
 protocol UIAlertControllerBuilder {
     func reset()
     func setStyle(_ style: UIAlertController.Style)

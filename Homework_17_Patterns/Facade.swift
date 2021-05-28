@@ -1,5 +1,7 @@
 import Foundation
 
+//Предполагает наличие класса, представляющего ограниченный или простой функционал более сложного класса для пользователя
+
 class NetworkLoader {
     static let shared = NetworkLoader()
     var lastDownload : Codable? = nil

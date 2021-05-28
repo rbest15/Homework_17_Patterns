@@ -2,6 +2,8 @@ import Foundation
 import UIKit
 import SpriteKit
 
+//Предполагает наличие команд, их очередность и возможность отменя для какого то конкретного класса
+
 protocol Command {
     func execute()
 }
